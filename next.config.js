@@ -16,6 +16,7 @@ const nextConfig = {
   basePath,
   assetPrefix,
   output: "export",
+  images: { unoptimized: true }, // 关闭默认图片优化
 };
 
 module.exports = nextConfig;

@@ -1,26 +1,9 @@
 /** @type {import('next').NextConfig} */
-
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
-
-const nextConfig = {
-  basePath: '',
-  assetPrefix: '',
-  output: "export",
-  images: { unoptimized: true }, // 关闭默认图片优化
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'XERA-2011.github.io';
+module.exports = {
+  output: 'export',                  // 启用静态导出
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
+  images: { unoptimized: true },     // 关闭 Next.js 默认图片优化
 };
-
-if (isGithubActions) {
-  // 去掉 `<owner>/`
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
-
-  nextConfig.assetPrefix = `/${repo}/`;
-  nextConfig.basePath = `/${repo}`;
-} else {
-    delete nextConfig.assetPrefix;
-    delete nextConfig.basePath;
-}
-
-
-
-module.exports = nextConfig;
-

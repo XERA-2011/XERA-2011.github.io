@@ -18,7 +18,7 @@ const config = {
     "Spline",
     "Framer Motion",
   ],
-  author: "XERA 2011",
+  author: "XERA-2011",
   email: "q1138006034@gmail.com",
   site: "https://xera-2011.github.io",
 

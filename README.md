@@ -1,10 +1,12 @@
 # 🚀 Getting Started
 
+> Forked from [Naresh-Khatri/3d-portfolio](https://github.com/Naresh-Khatri/3d-portfolio)
+
 ## Prerequisites
 
 - Node.js (v14+)
 - npm or yarn
-- pnpm ✅
+- pnpm 👍
 
 ## Installation
 

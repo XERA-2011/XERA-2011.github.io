@@ -22,7 +22,7 @@ export enum SkillNames {
   DOCKER = "docker",
   NGINX = "nginx",
   AWS = "aws",
-  VIM = "vim",
+  VSCODE = "vscode",
   VERCEL = "vercel",
 }
 export type Skill = {
@@ -216,13 +216,13 @@ using use = useUsing("use")`,
     color: "#ff9900",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
   },
-  [SkillNames.VIM]: {
+  [SkillNames.VSCODE]: {
     id: 23,
-    name: "vim",
-    label: "Vim",
-    shortDescription: "exit? In this economy? Ight, imma head out! 🚪🏃",
-    color: "#e34c26",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
+    name: "vscode",
+    label: "VS Code",
+    shortDescription: "Lightweight, Extensible, And endlessly customizable! 🛠️💻",
+    color: "#007ACC",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
   [SkillNames.VERCEL]: {
     id: 24,

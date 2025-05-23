@@ -23,7 +23,7 @@ const config = {
   site: "https://xera-2011.github.io",
 
   get ogImg() {
-    return this.site + "/assets/seo/og-image.png";
+    return this.site + "/assets/seo/og-image.jpg";
   },
   social: {
     twitter: "https://x.com/",

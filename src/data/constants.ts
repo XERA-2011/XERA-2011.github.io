@@ -71,7 +71,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     id: 5,
     name: "react",
     label: "React",
-    shortDescription: `"use using" 
+    shortDescription: `"use using"
 using use = useUsing("use")`,
     color: "#61dafb",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",

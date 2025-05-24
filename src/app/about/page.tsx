@@ -170,12 +170,12 @@ const TOOLS = [
     icon: <VscCode size={"50px"} color="#007acc" />,
     color: "#007acc",
   },
-  {
-    name: "VIM",
-    content: "Next.js is a React framework for production",
-    icon: <DiVim size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
+  // {
+  //   name: "VIM",
+  //   content: "Next.js is a React framework for production",
+  //   icon: <DiVim size={"50px"} color="#fff" />,
+  //   color: "#000000",
+  // },
   {
     name: "Prettier",
     content: "Next.js is a React framework for production",
@@ -219,12 +219,12 @@ const TOOLS = [
     icon: <TbTerminal2 size={"50px"} color="#fff" />,
     color: "#000000",
   },
-  {
-    name: "AWS",
-    content: "Next.js is a React framework for production",
-    icon: <FaAws size={"50px"} color="#3f51b5" />,
-    color: "#000000",
-  },
+  // {
+  //   name: "AWS",
+  //   content: "Next.js is a React framework for production",
+  //   icon: <FaAws size={"50px"} color="#3f51b5" />,
+  //   color: "#000000",
+  // },
 ];
 
 function Page() {
